@@ -110,13 +110,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "my",
+      "jazzChess",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "my",
+      "jazz-chess",
       "kebab-case"
     ],
     "use-input-property-decorator": true,

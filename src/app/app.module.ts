@@ -8,11 +8,12 @@ import { InMemoryDataService } from './in-memory-data.service';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { HeroService } from './hero.service';
-import { DashboardComponent } from './dashboard.component';
-import { HeroesComponent } from './heroes.component';
-import { HeroDetailComponent } from './hero-detail.component';
-import { HeroSearchComponent } from './hero-search.component';
+import { LobbyComponent } from './lobby/lobby.component';
+import { AnalysisComponent } from './analysis/analysis.component';
+import { UserService } from './lobby/services/user.service';
+import { UserGamesService } from './lobby/services/user-games.service';
+import { SharedModule } from 'app/shared/shared.module';
+import { PipeModule } from './shared/pipes/pipe.module';
 
 @NgModule({
   imports: [
@@ -20,16 +21,15 @@ import { HeroSearchComponent } from './hero-search.component';
     FormsModule,
     AppRoutingModule,
     HttpModule,
-    InMemoryWebApiModule.forRoot(InMemoryDataService, { delay: 600 })
+    SharedModule
+    // InMemoryWebApiModule.forRoot(InMemoryDataService, { delay: 600 })
   ],
   declarations: [
     AppComponent,
-    DashboardComponent,
-    HeroSearchComponent,
-    HeroesComponent,
-    HeroDetailComponent,
+    LobbyComponent,
+    AnalysisComponent
   ],
-  providers: [HeroService],
+  providers: [UserService, UserGamesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

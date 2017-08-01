@@ -1,0 +1,10 @@
+ lichess nickname:<br>
+<input #lichessName type="text" name="lichessName">
+<button (click)="fetchUserGames(lichessName.value)">Submit</button>
+
+<div *ngIf="userGames | async">
+    Here are you last games:
+    <div *ngFor="let game of (userGames | async)">
+        {{game.moves | shortenGame}}
+    </div>
+</div>

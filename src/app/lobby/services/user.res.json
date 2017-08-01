@@ -1,0 +1,76 @@
+{
+    "id": "jazz-chess",
+    "username": "Jazz-Chess",
+    "online": true,
+    "perfs": {
+        "blitz": {
+            "games": 785,
+            "rating": 2118,
+            "rd": 62,
+            "prog": -15
+        },
+        "bullet": {
+            "games": 280,
+            "rating": 1997,
+            "rd": 63,
+            "prog": 25
+        },
+        "correspondence": {
+            "games": 0,
+            "rating": 1500,
+            "rd": 350,
+            "prog": 0,
+            "prov": true
+        },
+        "puzzle": {
+            "games": 1705,
+            "rating": 1860,
+            "rd": 62,
+            "prog": -36
+        },
+        "atomic": {
+            "games": 15,
+            "rating": 1887,
+            "rd": 99,
+            "prog": 17
+        },
+        "classical": {
+            "games": 103,
+            "rating": 2202,
+            "rd": 69,
+            "prog": -19
+        },
+        "ultraBullet": {
+            "games": 2,
+            "rating": 2056,
+            "rd": 228,
+            "prog": 0,
+            "prov": true
+        }
+    },
+    "createdAt": 1478808433370,
+    "seenAt": 1501330610108,
+    "playTime": {
+        "total": 394356,
+        "tv": 92
+    },
+    "language": "en-GB",
+    "url": "https://lichess.org/@/Jazz-Chess",
+    "nbFollowing": 6,
+    "nbFollowers": 4,
+    "count": {
+        "all": 1304,
+        "rated": 1185,
+        "ai": 2,
+        "draw": 85,
+        "drawH": 85,
+        "loss": 360,
+        "lossH": 360,
+        "win": 859,
+        "winH": 857,
+        "bookmark": 0,
+        "playing": 0,
+        "import": 0,
+        "me": 0
+    }
+}
